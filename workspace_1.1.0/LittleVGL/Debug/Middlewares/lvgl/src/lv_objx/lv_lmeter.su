@@ -1,0 +1,17 @@
+lv_color.h:435:26:lv_color_mix	24	static
+lv_lmeter.h:105:20:lv_lmeter_set_style	24	static
+lv_lmeter.h:163:34:lv_lmeter_get_style	16	static
+lv_lmeter.c:57:12:lv_lmeter_create	40	static
+lv_lmeter.c:124:6:lv_lmeter_set_value	32	static
+lv_lmeter.c:142:6:lv_lmeter_set_range	32	static
+lv_lmeter.c:168:6:lv_lmeter_set_scale	32	static
+lv_lmeter.c:186:6:lv_lmeter_set_angle_offset	24	static
+lv_lmeter.c:205:9:lv_lmeter_get_value	32	static
+lv_lmeter.c:218:9:lv_lmeter_get_min_value	32	static
+lv_lmeter.c:231:9:lv_lmeter_get_max_value	32	static
+lv_lmeter.c:244:9:lv_lmeter_get_line_count	32	static
+lv_lmeter.c:257:10:lv_lmeter_get_scale_angle	32	static
+lv_lmeter.c:270:10:lv_lmeter_get_angle_offset	24	static
+lv_lmeter.c:290:13:lv_lmeter_design	144	static
+lv_lmeter.c:377:17:lv_lmeter_signal	32	static
+lv_lmeter.c:403:19:lv_lmeter_coord_round	24	static

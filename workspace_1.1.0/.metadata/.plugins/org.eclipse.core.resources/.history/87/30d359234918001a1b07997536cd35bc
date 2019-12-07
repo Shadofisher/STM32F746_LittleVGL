@@ -1,0 +1,23 @@
+
+#include "lvgl.h"
+
+
+void FirstTest(void)
+{
+
+	/*Get Current Scrren*/
+	lv_obj_t * obj1 = lv_page_create(NULL,NULL);
+	lv_disp_load_scr(obj1);
+	lv_obj_set_size(obj1,480,272);
+	lv_obj_t * btn1 = lv_btn_create(obj1,NULL);
+	lv_obj_set_size(btn1,80,20);
+	lv_obj_set_pos(btn1,50,10);
+
+	//create two more buttons
+	lv_obj_t * btn2 = lv_btn_create(obj1,btn1);
+	lv_obj_t * btn3 = lv_btn_create(obj1,btn1);
+
+	lv_obj_align(btn2,btn1,LV_ALIGN_OUT_RIGHT_MID,10,0);
+	lv_obj_align(btn3,btn1,LV_ALIGN_OUT_BOTTOM_LEFT,0,10);
+
+}

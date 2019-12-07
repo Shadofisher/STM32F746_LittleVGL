@@ -1,0 +1,8 @@
+lv_arc.c:52:12:lv_arc_create	40	static
+lv_arc.c:122:6:lv_arc_set_angles	32	static
+lv_arc.c:143:6:lv_arc_set_style	32	static
+lv_arc.c:161:10:lv_arc_get_angle_start	32	static
+lv_arc.c:175:10:lv_arc_get_angle_end	32	static
+lv_arc.c:190:20:lv_arc_get_style	32	static
+lv_arc.c:226:13:lv_arc_design	144	static
+lv_arc.c:288:17:lv_arc_signal	32	static

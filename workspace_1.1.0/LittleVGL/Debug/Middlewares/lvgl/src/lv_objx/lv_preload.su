@@ -1,0 +1,14 @@
+lv_preload.c:66:12:lv_preload_create	40	static
+lv_preload.c:133:6:lv_preload_set_arc_length	32	static
+lv_preload.c:147:6:lv_preload_set_spin_time	32	static
+lv_preload.c:166:6:lv_preload_set_style	32	static
+lv_preload.c:180:6:lv_preload_set_type	104	static
+lv_preload.c:264:6:lv_preload_set_dir	32	static
+lv_preload.c:282:17:lv_preload_get_arc_length	32	static
+lv_preload.c:294:10:lv_preload_get_spin_time	32	static
+lv_preload.c:308:20:lv_preload_get_style	32	static
+lv_preload.c:327:19:lv_preload_get_type	32	static
+lv_preload.c:335:18:lv_preload_get_dir	24	static
+lv_preload.c:350:6:lv_preload_spinner_anim	32	static
+lv_preload.c:378:13:lv_preload_design	120	static
+lv_preload.c:428:17:lv_preload_signal	32	static

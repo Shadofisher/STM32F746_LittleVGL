@@ -1,0 +1,24 @@
+07:01:44 **** Incremental Build of configuration Debug for project LittleVGL ****
+make -j12 all 
+arm-none-eabi-gcc "../Middlewares/lvgl/src/lv_hal/lv_hal_indev.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F429xx -c -I../USB_HOST/App -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares/lvgl" -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares/lvgl/src" -I../Drivers/CMSIS/Include -I../Core/Inc -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares" -I../USB_HOST/Target -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/lvgl/src/lv_hal/lv_hal_indev.d" -MT"Middlewares/lvgl/src/lv_hal/lv_hal_indev.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/lvgl/src/lv_hal/lv_hal_indev.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F429xx -c -I../USB_HOST/App -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares/lvgl" -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares/lvgl/src" -I../Drivers/CMSIS/Include -I../Core/Inc -I"/home/graeme/STM32CubeIDE/workspace_1.1.0/LittleVGL/Middlewares" -I../USB_HOST/Target -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Middlewares/lvgl/src/lv_hal/lv_hal_indev.c:11:0:
+../Middlewares/lvgl/src/lv_hal/lv_hal_indev.c: In function 'lv_indev_drv_register':
+../Middlewares/lvgl/src/lv_hal/../lv_core/lv_debug.h:52:33: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         lv_debug_log_error(msg, (uint64_t)value);         \
+                                 ^
+../Middlewares/lvgl/src/lv_hal/../lv_core/lv_debug.h:97:28: note: in expansion of macro 'LV_DEBUG_ASSERT'
+ #  define LV_ASSERT_MEM(p) LV_DEBUG_ASSERT(LV_DEBUG_IS_NULL(p), "Out of memory", p);
+                            ^~~~~~~~~~~~~~~
+../Middlewares/lvgl/src/lv_hal/lv_hal_indev.c:81:9: note: in expansion of macro 'LV_ASSERT_MEM'
+         LV_ASSERT_MEM(indev);
+         ^~~~~~~~~~~~~
+../Core/Src/main.c:25:10: fatal error: tft.h: No such file or directory
+ #include "tft.h"
+          ^~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:36: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+07:01:45 Build Failed. 2 errors, 1 warnings. (took 161ms)
+

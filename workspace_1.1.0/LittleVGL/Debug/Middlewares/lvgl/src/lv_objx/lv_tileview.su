@@ -1,0 +1,13 @@
+lv_cont.h:132:20:lv_cont_set_fit	24	static
+lv_page.h:199:20:lv_page_set_scrl_fit	16	static
+lv_tileview.c:65:12:lv_tileview_create	40	static
+lv_tileview.c:146:6:lv_tileview_add_element	32	static
+lv_tileview.c:174:6:lv_tileview_set_valid_positions	40	static
+lv_tileview.c:204:6:lv_tileview_set_tile_act	96	static
+lv_tileview.c:275:6:lv_tileview_set_style	32	static
+lv_tileview.c:298:20:lv_tileview_get_style	32	static
+lv_tileview.c:330:17:lv_tileview_signal	32	static
+lv_tileview.c:353:17:lv_tileview_scrl_signal	64	static
+lv_tileview.c:469:13:tileview_scrl_event_cb	32	static
+lv_tileview.c:498:13:drag_end_handler	64	static
+lv_tileview.c:551:13:set_valid_drag_dirs	24	static

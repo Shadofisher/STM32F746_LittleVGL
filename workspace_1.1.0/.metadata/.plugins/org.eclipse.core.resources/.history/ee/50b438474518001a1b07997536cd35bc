@@ -1,0 +1,12 @@
+
+
+
+void FirstTest(void)
+{
+
+	/*Get Current Scrren*/
+	lv_obt_t * obj1 = lv_page_create(NULL,NULL);
+
+	lv_obj_set_size(obj1,480,272);
+
+}

@@ -1,0 +1,12 @@
+lv_slider.h:79:20:lv_slider_set_value	16	static
+lv_slider.h:90:20:lv_slider_set_range	16	static
+lv_sw.h:129:20:lv_sw_get_state	16	static
+lv_sw.c:56:12:lv_sw_create	40	static
+lv_sw.c:133:6:lv_sw_on	32	static
+lv_sw.c:150:6:lv_sw_off	32	static
+lv_sw.c:168:6:lv_sw_toggle	32	static
+lv_sw.c:191:6:lv_sw_set_style	40	static
+lv_sw.c:211:6:lv_sw_set_anim_time	32	static
+lv_sw.c:234:20:lv_sw_get_style	32	static
+lv_sw.c:252:10:lv_sw_get_anim_time	32	static
+lv_sw.c:276:17:lv_sw_signal	80	static

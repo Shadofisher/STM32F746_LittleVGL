@@ -1,0 +1,10 @@
+lv_font.h:124:23:lv_font_get_line_height	16	static
+lv_imgbtn.h:193:30:lv_imgbtn_get_state	16	static
+lv_imgbtn.c:53:12:lv_imgbtn_create	40	static
+lv_imgbtn.c:118:6:lv_imgbtn_set_src	40	static
+lv_imgbtn.c:172:6:lv_imgbtn_set_style	32	static
+lv_imgbtn.c:190:14:lv_imgbtn_get_src	32	static
+lv_imgbtn.c:253:20:lv_imgbtn_get_style	24	static
+lv_imgbtn.c:282:13:lv_imgbtn_design	88	static
+lv_imgbtn.c:380:17:lv_imgbtn_signal	32	static
+lv_imgbtn.c:400:13:refr_img	48	static

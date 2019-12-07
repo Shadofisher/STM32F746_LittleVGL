@@ -1,0 +1,5 @@
+lv_draw_arc.c:53:6:lv_draw_arc	120	static
+lv_draw_arc.c:221:13:ver_line	48	static
+lv_draw_arc.c:229:13:hor_line	48	static
+lv_draw_arc.c:237:13:deg_test_norm	16	static
+lv_draw_arc.c:245:13:deg_test_inv	16	static

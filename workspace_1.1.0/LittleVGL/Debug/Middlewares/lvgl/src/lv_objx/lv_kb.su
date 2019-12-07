@@ -1,0 +1,11 @@
+lv_kb.c:97:12:lv_kb_create	48	static
+lv_kb.c:175:6:lv_kb_set_ta	32	static
+lv_kb.c:203:6:lv_kb_set_mode	32	static
+lv_kb.c:228:6:lv_kb_set_cursor_manage	32	static
+lv_kb.c:255:6:lv_kb_set_style	32	static
+lv_kb.c:278:12:lv_kb_get_ta	32	static
+lv_kb.c:291:14:lv_kb_get_mode	32	static
+lv_kb.c:304:6:lv_kb_get_cursor_manage	32	static
+lv_kb.c:318:20:lv_kb_get_style	32	static
+lv_kb.c:348:6:lv_kb_def_event_cb	48	static
+lv_kb.c:441:17:lv_kb_signal	48	static

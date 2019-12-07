@@ -1,0 +1,14 @@
+lv_task.c:55:6:lv_task_core_init	8	static
+lv_task.c:66:32:lv_task_handler	24	static
+lv_task.c:173:13:lv_task_create_basic	24	static
+lv_task.c:231:13:lv_task_create	40	static
+lv_task.c:250:6:lv_task_set_cb	16	static
+lv_task.c:259:6:lv_task_del	16	static
+lv_task.c:273:6:lv_task_set_prio	24	static
+lv_task.c:300:6:lv_task_set_period	16	static
+lv_task.c:309:6:lv_task_ready	16	static
+lv_task.c:318:6:lv_task_once	16	static
+lv_task.c:328:6:lv_task_reset	16	static
+lv_task.c:337:6:lv_task_enable	16	static
+lv_task.c:346:9:lv_task_get_idle	4	static
+lv_task.c:360:13:lv_task_exec	24	static

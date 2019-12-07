@@ -1,0 +1,14 @@
+lv_font.h:124:23:lv_font_get_line_height	16	static
+lv_cont.h:132:20:lv_cont_set_fit	24	static
+lv_btn.h:151:20:lv_btn_set_layout	16	static
+lv_btn.h:188:20:lv_btn_set_fit	16	static
+lv_label.h:299:34:lv_label_get_style	16	static
+lv_cb.c:53:12:lv_cb_create	40	static
+lv_cb.c:129:6:lv_cb_set_text	32	static
+lv_cb.c:143:6:lv_cb_set_static_text	32	static
+lv_cb.c:157:6:lv_cb_set_style	40	static
+lv_cb.c:188:14:lv_cb_get_text	32	static
+lv_cb.c:202:20:lv_cb_get_style	32	static
+lv_cb.c:236:13:lv_cb_design	40	static
+lv_cb.c:269:13:lv_bullet_design	48	static
+lv_cb.c:309:17:lv_cb_signal	48	static

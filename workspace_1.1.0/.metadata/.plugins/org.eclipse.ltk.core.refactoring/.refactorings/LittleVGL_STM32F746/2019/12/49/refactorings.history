@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LittleVGL_STM32F746/Core/Tutorial/gf_screen,c&apos; to &apos;gf_screen.c&apos;" description="Rename resource &apos;gf_screen,c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Tutorial/gf_screen,c" name="gf_screen.c" stamp="1575649239706" updateReferences="true"/>
+</session>

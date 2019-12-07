@@ -1,0 +1,7 @@
+lv_debug.c:45:6:lv_debug_check_null	16	static
+lv_debug.c:52:6:lv_debug_check_obj_type	56	static
+lv_debug.c:67:6:lv_debug_check_obj_valid	32	static
+lv_debug.c:85:6:lv_debug_check_style	16	static
+lv_debug.c:99:6:lv_debug_check_str	32	static
+lv_debug.c:130:6:lv_debug_log_error	296	static
+lv_debug.c:177:13:obj_valid_child	24	static

@@ -1,0 +1,15 @@
+lv_area.h:76:20:lv_area_copy	16	static
+lv_area.h:86:26:lv_area_get_width	16	static
+lv_area.h:96:26:lv_area_get_height	16	static
+lv_slider.h:79:20:lv_slider_set_value	16	static
+lv_slider.h:148:23:lv_slider_get_min_value	16	static
+lv_slider.h:158:23:lv_slider_get_max_value	16	static
+lv_slider.c:58:12:lv_slider_create	40	static
+lv_slider.c:123:6:lv_slider_set_knob_in	32	static
+lv_slider.c:140:6:lv_slider_set_style	40	static
+lv_slider.c:165:9:lv_slider_get_value	32	static
+lv_slider.c:182:6:lv_slider_is_dragged	32	static
+lv_slider.c:196:6:lv_slider_get_knob_in	32	static
+lv_slider.c:210:20:lv_slider_get_style	32	static
+lv_slider.c:241:13:lv_slider_design	200	static
+lv_slider.c:514:17:lv_slider_signal	88	static

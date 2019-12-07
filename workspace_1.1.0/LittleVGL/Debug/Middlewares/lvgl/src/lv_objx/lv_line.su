@@ -1,0 +1,9 @@
+lv_line.h:131:34:lv_line_get_style	16	static
+lv_line.c:52:12:lv_line_create	40	static
+lv_line.c:110:6:lv_line_set_points	48	static
+lv_line.c:140:6:lv_line_set_auto_size	32	static
+lv_line.c:160:6:lv_line_set_y_invert	32	static
+lv_line.c:181:6:lv_line_get_auto_size	32	static
+lv_line.c:195:6:lv_line_get_y_invert	32	static
+lv_line.c:218:13:lv_line_design	144	static
+lv_line.c:292:17:lv_line_signal	32	static

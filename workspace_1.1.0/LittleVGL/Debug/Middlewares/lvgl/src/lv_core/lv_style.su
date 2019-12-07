@@ -1,0 +1,9 @@
+lv_color.h:435:26:lv_color_mix	24	static
+lv_color.h:480:26:lv_color_make	16	static
+lv_style.c:68:6:lv_style_init	16	static
+lv_style.c:227:6:lv_style_copy	16	static
+lv_style.c:239:6:lv_style_mix	40	static
+lv_style.c:286:6:lv_style_anim_init	32	static
+lv_style.c:307:6:lv_style_anim_set_styles	32	static
+lv_style.c:326:13:style_animator	32	static
+lv_style.c:342:13:style_animation_common_end_cb	24	static
